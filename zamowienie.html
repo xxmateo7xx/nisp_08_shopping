@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <title>Zamówienie - Podsumowanie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Finalizacja zamówienia</h1>
+        
+        <div id="order-summary-box" style="margin-bottom: 40px;">
+            <p>Sprawdź swoje dane przed potwierdzeniem.</p>
+        </div>
+
+        <form id="order-form">
+            <div class="form-group">
+                <label>Imię i Nazwisko</label>
+                <input type="text" placeholder="Jan Kowalski" required>
+            </div>
+            <div class="form-group">
+                <label>Adres E-mail</label>
+                <input type="email" placeholder="jan@przyklad.pl" required>
+            </div>
+            <div class="form-group">
+                <label>Adres do wysyłki</label>
+                <input type="text" placeholder="ul. Kwiatowa 12, 00-001 Warszawa" required>
+            </div>
+            
+            <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 20px;">
+                Potwierdzam i zamawiam
+            </button>
+        </form>
+    </div>
+
+    <script src="zamowienie.js"></script>
+</body>
+</html>
